@@ -1,0 +1,248 @@
+
+/* ================= BASIC SETTINGS ================= */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f7fb;
+    color: #222;
+}
+
+
+/* ================= HEADER ================= */
+
+header {
+    background: linear-gradient(90deg, #111827, #312e81);
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin: 0 0 15px;
+    font-size: 36px;
+    color: #22d3ee;
+}
+
+
+/* ================= NAVIGATION ================= */
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #22d3ee;
+}
+
+
+/* ================= HOME ================= */
+
+.home {
+    text-align: center;
+
+    background: linear-gradient(
+        135deg,
+        #e0f2fe,
+        #ede9fe
+    );
+
+    padding: 80px 20px;
+}
+
+.home h2 {
+    font-size: 40px;
+    color: #312e81;
+}
+
+.home p {
+    font-size: 18px;
+    color: #4b5563;
+}
+
+
+/* ================= BUTTONS ================= */
+
+button {
+    background: linear-gradient(
+        90deg,
+        #7c3aed,
+        #06b6d4
+    );
+
+    color: white;
+
+    border: none;
+
+    padding: 12px 25px;
+
+    border-radius: 25px;
+
+    cursor: pointer;
+
+    font-size: 15px;
+
+    font-weight: bold;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+
+/* ================= SECTIONS ================= */
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+section h2 {
+    color: #312e81;
+    margin-bottom: 30px;
+}
+
+
+/* ================= BLOG CONTAINER ================= */
+
+.blog-container {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 25px;
+
+    flex-wrap: wrap;
+}
+
+
+/* ================= BLOG CARD ================= */
+
+.blog {
+    background-color: white;
+
+    width: 280px;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    border-top: 5px solid #7c3aed;
+
+    box-shadow:
+        0 5px 20px rgba(0, 0, 0, 0.10);
+
+    transition: 0.3s;
+}
+
+
+/* Card Hover */
+
+.blog:hover {
+    transform: translateY(-8px);
+
+    box-shadow:
+        0 12px 30px rgba(124, 58, 237, 0.20);
+}
+
+.blog h3 {
+    color: #6d28d9;
+}
+
+.blog p {
+    line-height: 1.7;
+
+    color: #64748b;
+}
+
+
+/* ================= ABOUT ================= */
+
+.about {
+    background-color: white;
+}
+
+.about p {
+    max-width: 700px;
+
+    margin: auto;
+
+    line-height: 1.8;
+
+    color: #64748b;
+}
+
+
+/* ================= CONTACT ================= */
+
+#contact {
+    background: linear-gradient(
+        135deg,
+        #eef2ff,
+        #ecfeff
+    );
+}
+
+
+/* ================= CONTACT FORM ================= */
+
+form {
+    width: 350px;
+
+    max-width: 90%;
+
+    margin: auto;
+}
+
+input,
+textarea {
+    width: 100%;
+
+    padding: 12px;
+
+    margin: 8px 0;
+
+    border: 1px solid #c4b5fd;
+
+    border-radius: 8px;
+
+    font-size: 15px;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+
+    border: 2px solid #7c3aed;
+}
+
+textarea {
+    height: 100px;
+}
+
+
+/* ================= FOOTER ================= */
+
+footer {
+    background: linear-gradient(
+        90deg,
+        #111827,
+        #312e81
+    );
+
+    color: white;
+
+    text-align: center;
+
+    padding: 25px;
+}
+
+footer p {
+    margin: 0;
+
+    color: #cbd5e1;
+}
+
